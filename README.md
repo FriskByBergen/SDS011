@@ -1,4 +1,9 @@
 # NovaFitnessSDS011
 
-Code for reading data from NovaFitness SDS011 sensors - both arduino and python
+Basic code for reading data from NovaFitness SDS011 sensors - both Arduino and Python.
+
+Read more about the sensor at http://aqicn.org/sensor/sds011/
+
+
+
 
