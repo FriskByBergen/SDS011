@@ -17,7 +17,7 @@ def create_traces(sensorid):
     conn = http.client.HTTPSConnection("friskbybergen-1d96.restdb.io")
     headers = {
         'content-type': "application/json",
-        'apikey': "571ff001c6dd47c4178ee222",
+        'apikey': "somekey",
         'cache-control': "no-cache",
         }
 
