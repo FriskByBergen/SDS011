@@ -28,15 +28,15 @@ while True:
             for i in s:
                 a.append(i)
             #print(a)
-            pm2hb= s[0]
-            pm2lb= s[1]
-            pm10hb= s[2]
-            pm10lb= s[3]
+            pm2lb= s[0]
+            pm2hb= s[1]
+            pm10lb= s[2]
+            pm10hb= s[3]
             cs = s[6]
             # we should verify the checksum... it is the sum of bytes 1-6 truncated...
 
             try:
-                print("PM2.5 - ", float(pm2hb + pm2lb*256)/10.0 ," PM10 - ", float(pm10hb + pm10lb*256)/10.0)
+                print("PM2.5 - ", float(pm2hb*256 + pm2lb)/10.0 ," PM10 - ", float(pm10hb*256 + pm10lb)/10.0)
             except:
                 pass
     else:
